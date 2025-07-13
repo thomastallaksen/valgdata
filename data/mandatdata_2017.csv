@@ -1,0 +1,384 @@
+"aar","valgtype","sted_type","sted_navn","overordnet_navn","parti_kode","parti_navn","mandater_antall","mandater_endring"
+"2017","ko","kommune","Færder","Vestfold","A","Arbeiderpartiet",12,12
+"2017","ko","kommune","Færder","Vestfold","SP","Senterpartiet",2,2
+"2017","ko","kommune","Færder","Vestfold","KRF","Kristelig Folkeparti",2,2
+"2017","ko","kommune","Færder","Vestfold","MDG","Miljøpartiet De Grønne",2,2
+"2017","ko","kommune","Færder","Vestfold","V","Venstre",3,3
+"2017","ko","kommune","Færder","Vestfold","H","Høyre",16,16
+"2017","ko","kommune","Færder","Vestfold","FRP","Fremskrittspartiet",6,6
+"2017","ko","kommune","Færder","Vestfold","BLANKE","Blanke",0,0
+"2017","ko","kommune","Færder","Vestfold","R_SVL","Felleslista for Rødt og Sosialistisk Venstreparti",4,4
+"2017","ko","kommune","Færder","Vestfold","Andre","Andre",4,4
+"2017","ko","kommune","Færder","Vestfold","Andre2","Andre2",0,0
+"2017","st","fylke","Østfold","","A","Arbeiderpartiet",3,0
+"2017","st","fylke","Østfold","","SV","Sosialistisk Venstreparti",1,1
+"2017","st","fylke","Østfold","","RØDT","Rødt",0,0
+"2017","st","fylke","Østfold","","SP","Senterpartiet",1,1
+"2017","st","fylke","Østfold","","KRF","Kristelig Folkeparti",0,-1
+"2017","st","fylke","Østfold","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Østfold","","V","Venstre",0,0
+"2017","st","fylke","Østfold","","H","Høyre",2,-1
+"2017","st","fylke","Østfold","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Østfold","","ALLI","Alliansen",0,0
+"2017","st","fylke","Østfold","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Østfold","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Østfold","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Østfold","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Østfold","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Østfold","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Østfold","","BLANKE","Blanke",0,0
+"2017","st","fylke","Østfold","","Andre","Andre",0,0
+"2017","st","fylke","Østfold","","Andre2","Andre2",0,0
+"2017","st","fylke","Akershus","","A","Arbeiderpartiet",5,0
+"2017","st","fylke","Akershus","","SV","Sosialistisk Venstreparti",1,0
+"2017","st","fylke","Akershus","","RØDT","Rødt",0,0
+"2017","st","fylke","Akershus","","SP","Senterpartiet",1,1
+"2017","st","fylke","Akershus","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Akershus","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Akershus","","V","Venstre",1,0
+"2017","st","fylke","Akershus","","H","Høyre",6,-1
+"2017","st","fylke","Akershus","","FRP","Fremskrittspartiet",3,0
+"2017","st","fylke","Akershus","","ALLI","Alliansen",0,0
+"2017","st","fylke","Akershus","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Akershus","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Akershus","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Akershus","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Akershus","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Akershus","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Akershus","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Akershus","","BLANKE","Blanke",0,0
+"2017","st","fylke","Akershus","","Andre","Andre",0,0
+"2017","st","fylke","Akershus","","Andre2","Andre2",0,0
+"2017","st","fylke","Oslo","","A","Arbeiderpartiet",5,-1
+"2017","st","fylke","Oslo","","SV","Sosialistisk Venstreparti",2,1
+"2017","st","fylke","Oslo","","RØDT","Rødt",1,1
+"2017","st","fylke","Oslo","","SP","Senterpartiet",0,0
+"2017","st","fylke","Oslo","","KRF","Kristelig Folkeparti",0,-1
+"2017","st","fylke","Oslo","","MDG","Miljøpartiet De Grønne",1,0
+"2017","st","fylke","Oslo","","V","Venstre",2,0
+"2017","st","fylke","Oslo","","H","Høyre",6,0
+"2017","st","fylke","Oslo","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Oslo","","ALLI","Alliansen",0,0
+"2017","st","fylke","Oslo","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Oslo","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Oslo","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Oslo","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Oslo","","NKP","Norges Kommunistiske Parti",0,0
+"2017","st","fylke","Oslo","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Oslo","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Oslo","","SAMFS","Samfunnspartiet",0,0
+"2017","st","fylke","Oslo","","BLANKE","Blanke",0,0
+"2017","st","fylke","Oslo","","FI","Feministisk Initiativ",0,0
+"2017","st","fylke","Oslo","","Andre","Andre",0,0
+"2017","st","fylke","Oslo","","Andre2","Andre2",0,0
+"2017","st","fylke","Hedmark","","A","Arbeiderpartiet",2,-1
+"2017","st","fylke","Hedmark","","SV","Sosialistisk Venstreparti",1,0
+"2017","st","fylke","Hedmark","","RØDT","Rødt",0,0
+"2017","st","fylke","Hedmark","","SP","Senterpartiet",2,1
+"2017","st","fylke","Hedmark","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Hedmark","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Hedmark","","V","Venstre",0,0
+"2017","st","fylke","Hedmark","","H","Høyre",1,0
+"2017","st","fylke","Hedmark","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Hedmark","","ALLI","Alliansen",0,0
+"2017","st","fylke","Hedmark","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Hedmark","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Hedmark","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Hedmark","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Hedmark","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Hedmark","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Hedmark","","BLANKE","Blanke",0,0
+"2017","st","fylke","Hedmark","","NP","Norgespartiet",0,0
+"2017","st","fylke","Hedmark","","Andre","Andre",0,0
+"2017","st","fylke","Hedmark","","Andre2","Andre2",0,0
+"2017","st","fylke","Oppland","","A","Arbeiderpartiet",2,-1
+"2017","st","fylke","Oppland","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Oppland","","RØDT","Rødt",0,0
+"2017","st","fylke","Oppland","","SP","Senterpartiet",2,1
+"2017","st","fylke","Oppland","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Oppland","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Oppland","","V","Venstre",1,0
+"2017","st","fylke","Oppland","","H","Høyre",1,0
+"2017","st","fylke","Oppland","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Oppland","","ALLI","Alliansen",0,0
+"2017","st","fylke","Oppland","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Oppland","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Oppland","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Oppland","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Oppland","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Oppland","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Oppland","","BLANKE","Blanke",0,0
+"2017","st","fylke","Oppland","","Andre","Andre",0,0
+"2017","st","fylke","Oppland","","Andre2","Andre2",0,0
+"2017","st","fylke","Buskerud","","A","Arbeiderpartiet",3,0
+"2017","st","fylke","Buskerud","","SV","Sosialistisk Venstreparti",1,1
+"2017","st","fylke","Buskerud","","RØDT","Rødt",0,0
+"2017","st","fylke","Buskerud","","SP","Senterpartiet",1,0
+"2017","st","fylke","Buskerud","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Buskerud","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Buskerud","","V","Venstre",0,0
+"2017","st","fylke","Buskerud","","H","Høyre",2,-1
+"2017","st","fylke","Buskerud","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Buskerud","","ALLI","Alliansen",0,0
+"2017","st","fylke","Buskerud","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Buskerud","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Buskerud","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Buskerud","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Buskerud","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Buskerud","","BLANKE","Blanke",0,0
+"2017","st","fylke","Buskerud","","Andre","Andre",0,0
+"2017","st","fylke","Buskerud","","Andre2","Andre2",0,0
+"2017","st","fylke","Vestfold","","A","Arbeiderpartiet",2,0
+"2017","st","fylke","Vestfold","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Vestfold","","RØDT","Rødt",0,0
+"2017","st","fylke","Vestfold","","SP","Senterpartiet",0,0
+"2017","st","fylke","Vestfold","","KRF","Kristelig Folkeparti",0,-1
+"2017","st","fylke","Vestfold","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Vestfold","","V","Venstre",1,1
+"2017","st","fylke","Vestfold","","H","Høyre",3,1
+"2017","st","fylke","Vestfold","","FRP","Fremskrittspartiet",1,-1
+"2017","st","fylke","Vestfold","","ALLI","Alliansen",0,0
+"2017","st","fylke","Vestfold","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Vestfold","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Vestfold","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Vestfold","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Vestfold","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Vestfold","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Vestfold","","BLANKE","Blanke",0,0
+"2017","st","fylke","Vestfold","","Andre","Andre",0,0
+"2017","st","fylke","Vestfold","","Andre2","Andre2",0,0
+"2017","st","fylke","Telemark","","A","Arbeiderpartiet",2,-1
+"2017","st","fylke","Telemark","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Telemark","","RØDT","Rødt",0,0
+"2017","st","fylke","Telemark","","SP","Senterpartiet",1,1
+"2017","st","fylke","Telemark","","KRF","Kristelig Folkeparti",1,0
+"2017","st","fylke","Telemark","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Telemark","","V","Venstre",0,0
+"2017","st","fylke","Telemark","","H","Høyre",1,0
+"2017","st","fylke","Telemark","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Telemark","","ALLI","Alliansen",0,0
+"2017","st","fylke","Telemark","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Telemark","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Telemark","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Telemark","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Telemark","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Telemark","","BLANKE","Blanke",0,0
+"2017","st","fylke","Telemark","","Andre","Andre",0,0
+"2017","st","fylke","Telemark","","Andre2","Andre2",0,0
+"2017","st","fylke","Aust-Agder","","A","Arbeiderpartiet",1,0
+"2017","st","fylke","Aust-Agder","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Aust-Agder","","RØDT","Rødt",0,0
+"2017","st","fylke","Aust-Agder","","SP","Senterpartiet",0,0
+"2017","st","fylke","Aust-Agder","","KRF","Kristelig Folkeparti",1,0
+"2017","st","fylke","Aust-Agder","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Aust-Agder","","V","Venstre",0,0
+"2017","st","fylke","Aust-Agder","","H","Høyre",1,0
+"2017","st","fylke","Aust-Agder","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Aust-Agder","","ALLI","Alliansen",0,0
+"2017","st","fylke","Aust-Agder","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Aust-Agder","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Aust-Agder","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Aust-Agder","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Aust-Agder","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Aust-Agder","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Aust-Agder","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Aust-Agder","","BLANKE","Blanke",0,0
+"2017","st","fylke","Aust-Agder","","Andre","Andre",0,0
+"2017","st","fylke","Aust-Agder","","Andre2","Andre2",0,0
+"2017","st","fylke","Vest-Agder","","A","Arbeiderpartiet",1,-1
+"2017","st","fylke","Vest-Agder","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Vest-Agder","","RØDT","Rødt",0,0
+"2017","st","fylke","Vest-Agder","","SP","Senterpartiet",0,0
+"2017","st","fylke","Vest-Agder","","KRF","Kristelig Folkeparti",2,1
+"2017","st","fylke","Vest-Agder","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Vest-Agder","","V","Venstre",0,0
+"2017","st","fylke","Vest-Agder","","H","Høyre",2,0
+"2017","st","fylke","Vest-Agder","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Vest-Agder","","ALLI","Alliansen",0,0
+"2017","st","fylke","Vest-Agder","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Vest-Agder","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Vest-Agder","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Vest-Agder","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Vest-Agder","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Vest-Agder","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Vest-Agder","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Vest-Agder","","BLANKE","Blanke",0,0
+"2017","st","fylke","Vest-Agder","","Andre","Andre",0,0
+"2017","st","fylke","Vest-Agder","","Andre2","Andre2",0,0
+"2017","st","fylke","Rogaland","","A","Arbeiderpartiet",4,1
+"2017","st","fylke","Rogaland","","SV","Sosialistisk Venstreparti",1,1
+"2017","st","fylke","Rogaland","","RØDT","Rødt",0,0
+"2017","st","fylke","Rogaland","","SP","Senterpartiet",1,0
+"2017","st","fylke","Rogaland","","KRF","Kristelig Folkeparti",1,-1
+"2017","st","fylke","Rogaland","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Rogaland","","V","Venstre",0,-1
+"2017","st","fylke","Rogaland","","H","Høyre",4,0
+"2017","st","fylke","Rogaland","","FRP","Fremskrittspartiet",3,0
+"2017","st","fylke","Rogaland","","ALLI","Alliansen",0,0
+"2017","st","fylke","Rogaland","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Rogaland","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Rogaland","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Rogaland","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Rogaland","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Rogaland","","NKP","Norges Kommunistiske Parti",0,0
+"2017","st","fylke","Rogaland","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Rogaland","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Rogaland","","BLANKE","Blanke",0,0
+"2017","st","fylke","Rogaland","","VERDI","Verdipartiet",0,0
+"2017","st","fylke","Rogaland","","Andre","Andre",0,0
+"2017","st","fylke","Rogaland","","Andre2","Andre2",0,0
+"2017","st","fylke","Hordaland","","A","Arbeiderpartiet",4,0
+"2017","st","fylke","Hordaland","","SV","Sosialistisk Venstreparti",1,0
+"2017","st","fylke","Hordaland","","RØDT","Rødt",0,0
+"2017","st","fylke","Hordaland","","SP","Senterpartiet",2,1
+"2017","st","fylke","Hordaland","","KRF","Kristelig Folkeparti",1,0
+"2017","st","fylke","Hordaland","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Hordaland","","V","Venstre",1,0
+"2017","st","fylke","Hordaland","","H","Høyre",5,-1
+"2017","st","fylke","Hordaland","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Hordaland","","ALLI","Alliansen",0,0
+"2017","st","fylke","Hordaland","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Hordaland","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Hordaland","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Hordaland","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Hordaland","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Hordaland","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Hordaland","","BLANKE","Blanke",0,0
+"2017","st","fylke","Hordaland","","FI","Feministisk Initiativ",0,0
+"2017","st","fylke","Hordaland","","Andre","Andre",0,0
+"2017","st","fylke","Hordaland","","Andre2","Andre2",0,0
+"2017","st","fylke","Sogn og Fjordane","","A","Arbeiderpartiet",1,0
+"2017","st","fylke","Sogn og Fjordane","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Sogn og Fjordane","","RØDT","Rødt",0,0
+"2017","st","fylke","Sogn og Fjordane","","SP","Senterpartiet",1,0
+"2017","st","fylke","Sogn og Fjordane","","KRF","Kristelig Folkeparti",1,1
+"2017","st","fylke","Sogn og Fjordane","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Sogn og Fjordane","","V","Venstre",0,-1
+"2017","st","fylke","Sogn og Fjordane","","H","Høyre",1,0
+"2017","st","fylke","Sogn og Fjordane","","FRP","Fremskrittspartiet",0,0
+"2017","st","fylke","Sogn og Fjordane","","ALLI","Alliansen",0,0
+"2017","st","fylke","Sogn og Fjordane","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Sogn og Fjordane","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Sogn og Fjordane","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Sogn og Fjordane","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Sogn og Fjordane","","BLANKE","Blanke",0,0
+"2017","st","fylke","Sogn og Fjordane","","Andre","Andre",0,0
+"2017","st","fylke","Sogn og Fjordane","","Andre2","Andre2",0,0
+"2017","st","fylke","Møre og Romsdal","","A","Arbeiderpartiet",2,0
+"2017","st","fylke","Møre og Romsdal","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Møre og Romsdal","","RØDT","Rødt",0,0
+"2017","st","fylke","Møre og Romsdal","","SP","Senterpartiet",1,0
+"2017","st","fylke","Møre og Romsdal","","KRF","Kristelig Folkeparti",1,0
+"2017","st","fylke","Møre og Romsdal","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Møre og Romsdal","","V","Venstre",0,-1
+"2017","st","fylke","Møre og Romsdal","","H","Høyre",3,1
+"2017","st","fylke","Møre og Romsdal","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Møre og Romsdal","","ALLI","Alliansen",0,0
+"2017","st","fylke","Møre og Romsdal","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Møre og Romsdal","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Møre og Romsdal","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Møre og Romsdal","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Møre og Romsdal","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Møre og Romsdal","","BLANKE","Blanke",0,0
+"2017","st","fylke","Møre og Romsdal","","NML","Nordmørslista",0,0
+"2017","st","fylke","Møre og Romsdal","","Andre","Andre",0,0
+"2017","st","fylke","Møre og Romsdal","","Andre2","Andre2",0,0
+"2017","st","fylke","Sør-Trøndelag","","A","Arbeiderpartiet",4,0
+"2017","st","fylke","Sør-Trøndelag","","SV","Sosialistisk Venstreparti",1,0
+"2017","st","fylke","Sør-Trøndelag","","RØDT","Rødt",0,0
+"2017","st","fylke","Sør-Trøndelag","","SP","Senterpartiet",1,0
+"2017","st","fylke","Sør-Trøndelag","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Sør-Trøndelag","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Sør-Trøndelag","","V","Venstre",1,1
+"2017","st","fylke","Sør-Trøndelag","","H","Høyre",2,0
+"2017","st","fylke","Sør-Trøndelag","","FRP","Fremskrittspartiet",1,-1
+"2017","st","fylke","Sør-Trøndelag","","ALLI","Alliansen",0,0
+"2017","st","fylke","Sør-Trøndelag","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Sør-Trøndelag","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Sør-Trøndelag","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Sør-Trøndelag","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Sør-Trøndelag","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Sør-Trøndelag","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Sør-Trøndelag","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Sør-Trøndelag","","BLANKE","Blanke",0,0
+"2017","st","fylke","Sør-Trøndelag","","Andre","Andre",0,0
+"2017","st","fylke","Sør-Trøndelag","","Andre2","Andre2",0,0
+"2017","st","fylke","Nord-Trøndelag","","A","Arbeiderpartiet",2,0
+"2017","st","fylke","Nord-Trøndelag","","SV","Sosialistisk Venstreparti",0,0
+"2017","st","fylke","Nord-Trøndelag","","RØDT","Rødt",0,0
+"2017","st","fylke","Nord-Trøndelag","","SP","Senterpartiet",1,0
+"2017","st","fylke","Nord-Trøndelag","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Nord-Trøndelag","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Nord-Trøndelag","","V","Venstre",1,0
+"2017","st","fylke","Nord-Trøndelag","","H","Høyre",1,0
+"2017","st","fylke","Nord-Trøndelag","","FRP","Fremskrittspartiet",0,0
+"2017","st","fylke","Nord-Trøndelag","","ALLI","Alliansen",0,0
+"2017","st","fylke","Nord-Trøndelag","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Nord-Trøndelag","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Nord-Trøndelag","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Nord-Trøndelag","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Nord-Trøndelag","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Nord-Trøndelag","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Nord-Trøndelag","","PP","Pensjonistpartiet",0,0
+"2017","st","fylke","Nord-Trøndelag","","BLANKE","Blanke",0,0
+"2017","st","fylke","Nord-Trøndelag","","Andre","Andre",0,0
+"2017","st","fylke","Nord-Trøndelag","","Andre2","Andre2",0,0
+"2017","st","fylke","Nordland","","A","Arbeiderpartiet",2,-2
+"2017","st","fylke","Nordland","","SV","Sosialistisk Venstreparti",1,1
+"2017","st","fylke","Nordland","","RØDT","Rødt",0,0
+"2017","st","fylke","Nordland","","SP","Senterpartiet",2,1
+"2017","st","fylke","Nordland","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Nordland","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Nordland","","V","Venstre",0,0
+"2017","st","fylke","Nordland","","H","Høyre",2,0
+"2017","st","fylke","Nordland","","FRP","Fremskrittspartiet",2,0
+"2017","st","fylke","Nordland","","ALLI","Alliansen",0,0
+"2017","st","fylke","Nordland","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Nordland","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Nordland","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Nordland","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Nordland","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Nordland","","NKP","Norges Kommunistiske Parti",0,0
+"2017","st","fylke","Nordland","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Nordland","","BLANKE","Blanke",0,0
+"2017","st","fylke","Nordland","","Andre","Andre",0,0
+"2017","st","fylke","Nordland","","Andre2","Andre2",0,0
+"2017","st","fylke","Troms Romsa","","A","Arbeiderpartiet",2,0
+"2017","st","fylke","Troms Romsa","","SV","Sosialistisk Venstreparti",1,0
+"2017","st","fylke","Troms Romsa","","RØDT","Rødt",0,0
+"2017","st","fylke","Troms Romsa","","SP","Senterpartiet",1,1
+"2017","st","fylke","Troms Romsa","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Troms Romsa","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Troms Romsa","","V","Venstre",0,0
+"2017","st","fylke","Troms Romsa","","H","Høyre",1,-1
+"2017","st","fylke","Troms Romsa","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Troms Romsa","","ALLI","Alliansen",0,0
+"2017","st","fylke","Troms Romsa","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Troms Romsa","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Troms Romsa","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Troms Romsa","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Troms Romsa","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Troms Romsa","","NKP","Norges Kommunistiske Parti",0,0
+"2017","st","fylke","Troms Romsa","","BLANKE","Blanke",0,0
+"2017","st","fylke","Troms Romsa","","NORDT","Nordting",0,0
+"2017","st","fylke","Troms Romsa","","Andre","Andre",0,0
+"2017","st","fylke","Troms Romsa","","Andre2","Andre2",0,0
+"2017","st","fylke","Finnmark Finnmárku","","A","Arbeiderpartiet",2,0
+"2017","st","fylke","Finnmark Finnmárku","","SV","Sosialistisk Venstreparti",0,-1
+"2017","st","fylke","Finnmark Finnmárku","","RØDT","Rødt",0,0
+"2017","st","fylke","Finnmark Finnmárku","","SP","Senterpartiet",1,1
+"2017","st","fylke","Finnmark Finnmárku","","KRF","Kristelig Folkeparti",0,0
+"2017","st","fylke","Finnmark Finnmárku","","MDG","Miljøpartiet De Grønne",0,0
+"2017","st","fylke","Finnmark Finnmárku","","V","Venstre",0,0
+"2017","st","fylke","Finnmark Finnmárku","","H","Høyre",1,0
+"2017","st","fylke","Finnmark Finnmárku","","FRP","Fremskrittspartiet",1,0
+"2017","st","fylke","Finnmark Finnmárku","","ALLI","Alliansen",0,0
+"2017","st","fylke","Finnmark Finnmárku","","DEMN","Demokratene i Norge",0,0
+"2017","st","fylke","Finnmark Finnmárku","","HELSE","Helsepartiet",0,0
+"2017","st","fylke","Finnmark Finnmárku","","KRISTNE","Partiet De Kristne",0,0
+"2017","st","fylke","Finnmark Finnmárku","","KYST","Kystpartiet",0,0
+"2017","st","fylke","Finnmark Finnmárku","","LIBS","Liberalistene",0,0
+"2017","st","fylke","Finnmark Finnmárku","","PIR","Piratpartiet",0,0
+"2017","st","fylke","Finnmark Finnmárku","","BLANKE","Blanke",0,0
+"2017","st","fylke","Finnmark Finnmárku","","Andre","Andre",0,0
+"2017","st","fylke","Finnmark Finnmárku","","Andre2","Andre2",0,0
