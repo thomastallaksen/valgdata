@@ -88,7 +88,82 @@ parti_utvikling <- stemmedata %>%
   arrange(parti_navn, aar)
 ```
 
+## SSB Demografiske Data
+
+Prosjektet inkluderer også demografiske data fra SSB som kan kobles med valgdataene:
+
+### Hent SSB-data
+```r
+source("hent_ssb_data.R")
+```
+
+Dette henter:
+- **Sentralitetsindeks** (2023-2024) - Kommuners sentralitet/periferi
+- **Befolkning og areal** (2021) - Innbyggertall, landareal, befolkningstetthet
+- **Utdanning** (2021) - Utdanningsnivå per kommune
+- **Inntekt** (2021) - Medianinntekt etter skatt per kommune
+
+### Filstruktur SSB-data
+- `data/sentralitetsindeks_2023-2024.csv` - 357 kommuner
+- `data/befolkning_areal_2021.csv` - Befolkning og areal
+- `data/utdanning_2021.csv` - Utdanningsnivå
+- `data/inntekt_2021.csv` - Medianinntekt
+
+### Eksempel: Koble valgdata med SSB-data
+```r
+library(dplyr)
+
+# Les data
+stemmedata <- read.csv("data/stemmedata_2021.csv")
+befolkning <- read.csv("data/befolkning_areal_2021.csv")
+inntekt <- read.csv("data/inntekt_2021.csv")
+sentralitet <- read.csv("data/sentralitetsindeks_2023-2024.csv")
+
+# Koble data (må matche kommunenavn)
+valgdata_utvidet <- stemmedata %>%
+  left_join(befolkning, by = c("kommune_navn" = "region")) %>%
+  left_join(inntekt, by = c("kommune_navn" = "region"))
+
+# Analyse: Partienes oppslutning etter inntektsnivå
+analyse <- valgdata_utvidet %>%
+  filter(parti_kode == "AP") %>%
+  group_by(kommune_navn, median_inntekt) %>%
+  summarise(stemmer_prosent = mean(stemmer_prosent, na.rm = TRUE))
+```
+
+## Analyse av data
+
+Jeg har laget et komplett Quarto-dokument som slår sammen valgdata og SSB-data for analyse!
+
+### Kjør analysen:
+```r
+# I RStudio: Åpne analyse_valgdata.qmd og klikk "Render"
+# Eller i terminal:
+quarto render analyse_valgdata.qmd
+```
+
+Dette genererer en HTML-rapport med:
+- Partienes utvikling over tid
+- Sammenheng mellom stemmegivning og inntekt
+- Sammenheng mellom stemmegivning og utdanningsnivå
+- By vs. land-analyser (sentralitet)
+- Befolkningstetthet og stemmegivning
+
+Analysen lager også et kombinert datasett: `data/valgdata_komplett.csv`
+
+### Hent nyere valgdata (2023, 2025)
+```r
+source("hent_nye_valgdata.R")  # Tar 10-15 min per år
+```
+
 ## Avhengigheter
 ```r
+# For valgdata
 install.packages(c("httr", "jsonlite", "dplyr"))
+
+# For SSB-data
+install.packages(c("PxWebApiData", "dplyr", "readxl"))
+
+# For analyse (Quarto)
+install.packages(c("dplyr", "ggplot2", "tidyr", "knitr"))
 ```

@@ -1,0 +1,430 @@
+---
+title: "Analyse av norske valgdata med demografiske variabler"
+author: "Valgdata-analyse"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    theme: cosmo
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+---
+
+# Innledning
+
+Dette dokumentet analyserer norske valgresultater fra 2013-2025 kombinert med demografiske data fra SSB. Målet er å undersøke sammenhenger mellom stemmegivning og faktorer som:
+
+- Inntektsnivå
+- Utdanningsnivå
+- Befolkningstetthet
+- Sentralitet (by vs. periferi)
+
+# Data
+
+## Last inn pakker
+
+```{r}
+#| label: setup
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+# Tema for grafer
+theme_set(theme_minimal())
+```
+
+## Les inn data
+
+```{r}
+#| label: load-data
+
+# Valgdata
+stemmedata <- read.csv("data/stemmedata_alle_aar.csv", fileEncoding = "UTF-8")
+mandatdata <- read.csv("data/mandatdata_alle_aar.csv", fileEncoding = "UTF-8")
+
+# Standardiser partinavn (SV endret navn fra 2019)
+stemmedata <- stemmedata %>%
+  mutate(parti_navn = case_when(
+    parti_kode == "SV" ~ "Sosialistisk Venstreparti",
+    TRUE ~ parti_navn
+  ))
+
+# SSB-data
+befolkning <- read.csv("data/befolkning_areal_2021.csv", fileEncoding = "UTF-8")
+inntekt <- read.csv("data/inntekt_2021.csv", fileEncoding = "UTF-8")
+utdanning <- read.csv("data/utdanning_2021.csv", fileEncoding = "UTF-8")
+sentralitet <- read.csv("data/sentralitetsindeks_2023-2024.csv", fileEncoding = "UTF-8")
+
+cat("Valgdata:\n")
+cat("- Stemmedata:", nrow(stemmedata), "rader\n")
+cat("- Mandatdata:", nrow(mandatdata), "rader\n")
+cat("- Valgår:", paste(sort(unique(stemmedata$aar)), collapse = ", "), "\n\n")
+
+cat("SSB-data:\n")
+cat("- Befolkning:", nrow(befolkning), "kommuner\n")
+cat("- Inntekt:", nrow(inntekt), "kommuner\n")
+cat("- Utdanning:", nrow(utdanning), "rader\n")
+cat("- Sentralitet:", nrow(sentralitet), "kommuner\n")
+```
+
+## Preprosessering av utdanningsdata
+
+```{r}
+#| label: prep-education
+
+# Beregn andel med høyere utdanning
+utdanning_wide <- utdanning %>%
+  filter(statistikkvariabel == "Personer 16 år og over") %>%
+  select(region, nivå, antall) %>%
+  distinct() %>%  # Fjern duplikater
+  pivot_wider(names_from = nivå, values_from = antall) %>%
+  mutate(
+    andel_hoyere_utdanning = ifelse(`Utdanningsnivå i alt` > 0,
+                                     (`Universitets- og høgskolenivå, kort` +
+                                      `Universitets- og høgskolenivå, lang`) /
+                                       `Utdanningsnivå i alt` * 100,
+                                     NA)
+  ) %>%
+  select(region, andel_hoyere_utdanning)
+
+head(utdanning_wide)
+```
+
+## Preprosessering av sentralitetsdata
+
+```{r}
+#| label: prep-centrality
+
+# Rydd opp i sentralitetsdata
+sentralitet_clean <- sentralitet %>%
+  rename(
+    kommune_nr = `knr.2024`,
+    kommune_navn = `Kommune.2024`,
+    sentralitet_indeks = `Indeks.2023`,
+    sentralitet_klasse = `Klasse.2023`
+  ) %>%
+  select(kommune_navn, sentralitet_indeks, sentralitet_klasse)
+
+head(sentralitet_clean)
+```
+
+# Slå sammen data
+
+## Aggreger stemmedata til kommune-nivå
+
+```{r}
+#| label: aggregate-votes
+
+# Aggreger stemmedata per kommune, år og parti
+stemmer_kommune <- stemmedata %>%
+  filter(valgtype == "st") %>%  # Bare stortingsvalg
+  group_by(aar, fylke_navn, kommune_navn, parti_kode, parti_navn) %>%
+  summarise(
+    stemmer_antall = sum(stemmer_antall, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  group_by(aar, fylke_navn, kommune_navn) %>%
+  mutate(
+    total_stemmer = sum(stemmer_antall, na.rm = TRUE),
+    stemmer_prosent = (stemmer_antall / total_stemmer) * 100
+  ) %>%
+  ungroup()
+
+cat("Aggregerte stemmedata:", nrow(stemmer_kommune), "rader\n")
+cat("Kommuner med data:", length(unique(stemmer_kommune$kommune_navn)), "\n")
+```
+
+## Kombinert datasett
+
+```{r}
+#| label: merge-data
+
+# Slå sammen alt
+valgdata_komplett <- stemmer_kommune %>%
+  left_join(befolkning, by = c("kommune_navn" = "region")) %>%
+  left_join(inntekt, by = c("kommune_navn" = "region")) %>%
+  left_join(utdanning_wide, by = c("kommune_navn" = "region")) %>%
+  left_join(sentralitet_clean, by = "kommune_navn") %>%
+  # Rename kolonner for bedre lesbarhet
+  rename(
+    befolkning = `Befolkning.per.1.1...personer.`,
+    tetthet = `Innbyggere.per.km..landareal`,
+    landareal = `Landareal..km..`
+  )
+
+# Vis struktur
+cat("Kombinert datasett:\n")
+cat("- Rader:", nrow(valgdata_komplett), "\n")
+cat("- Kolonner:", ncol(valgdata_komplett), "\n\n")
+
+cat("Kolonner:\n")
+print(names(valgdata_komplett))
+
+# Lagre for senere bruk
+write.csv(valgdata_komplett, "data/valgdata_komplett.csv",
+          row.names = FALSE, fileEncoding = "UTF-8")
+```
+
+## Datakvalitet
+
+```{r}
+#| label: data-quality
+
+# Sjekk manglende verdier
+missing_summary <- valgdata_komplett %>%
+  summarise(across(everything(), ~sum(is.na(.)))) %>%
+  pivot_longer(everything(), names_to = "variabel", values_to = "antall_NA") %>%
+  filter(antall_NA > 0) %>%
+  arrange(desc(antall_NA))
+
+kable(missing_summary,
+      caption = "Manglende verdier i datasett")
+```
+
+# Analyser
+
+## 1. Partienes utvikling over tid
+
+```{r}
+#| label: party-trends
+#| fig-width: 10
+#| fig-height: 6
+
+# Beregn nasjonale resultater per år
+nasjonal_oppslutning <- stemmer_kommune %>%
+  group_by(aar, parti_navn) %>%
+  summarise(
+    stemmer = sum(stemmer_antall, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  group_by(aar) %>%
+  mutate(
+    prosent = (stemmer / sum(stemmer)) * 100
+  ) %>%
+  ungroup()
+
+# Filtrer til de største partiene
+store_partier <- nasjonal_oppslutning %>%
+  group_by(parti_navn) %>%
+  summarise(gjennomsnitt = mean(prosent)) %>%
+  filter(gjennomsnitt >= 3) %>%
+  pull(parti_navn)
+
+nasjonal_oppslutning %>%
+  filter(parti_navn %in% store_partier) %>%
+  ggplot(aes(x = aar, y = prosent, color = parti_navn, group = parti_navn)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  labs(
+    title = "Partienes utvikling i stortingsvalg 2013-2025",
+    x = "År",
+    y = "Oppslutning (%)",
+    color = "Parti"
+  ) +
+  scale_x_continuous(breaks = seq(2013, 2025, 2)) +
+  theme(legend.position = "right")
+```
+
+## 2. Stemmegivning og inntekt
+
+```{r}
+#| label: income-analysis
+#| fig-width: 10
+#| fig-height: 8
+
+# Filtrer til 2021 og fjern NA
+data_2025 <- valgdata_komplett %>%
+  filter(aar == 2025, !is.na(median_inntekt), !is.na(stemmer_prosent)) %>%
+  filter(parti_navn %in% store_partier)
+
+# Lag inntektskategorier
+data_2025 <- data_2025 %>%
+  mutate(
+    inntekt_kategori = cut(median_inntekt,
+                           breaks = quantile(median_inntekt, probs = seq(0, 1, 0.25), na.rm = TRUE),
+                           labels = c("Lav", "Middels-lav", "Middels-høy", "Høy"),
+                           include.lowest = TRUE)
+  )
+
+# Beregn gjennomsnittlig oppslutning per inntektskategori
+inntekt_parti <- data_2025 %>%
+  group_by(inntekt_kategori, parti_navn) %>%
+  summarise(
+    gjennomsnitt_prosent = mean(stemmer_prosent, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(inntekt_parti, aes(x = inntekt_kategori, y = gjennomsnitt_prosent,
+                           fill = parti_navn)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Partioppslutning etter inntektsnivå (2025)",
+    subtitle = "Gjennomsnittlig oppslutning i kommuner gruppert etter medianinntekt",
+    x = "Inntektskategori",
+    y = "Oppslutning (%)",
+    fill = "Parti"
+  ) +
+  theme(axis.text.x = element_text(angle = 0))
+```
+
+## 3. Stemmegivning og utdanning
+
+```{r}
+#| label: education-analysis
+#| fig-width: 10
+#| fig-height: 8
+
+# Korrelasjonsanalyse: utdanning og partioppslutning
+data_utd <- valgdata_komplett %>%
+  filter(aar == 2025, !is.na(andel_hoyere_utdanning), !is.na(stemmer_prosent)) %>%
+  filter(parti_navn %in% store_partier)
+
+ggplot(data_utd, aes(x = andel_hoyere_utdanning, y = stemmer_prosent)) +
+  geom_point(alpha = 0.3, size = 1) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  facet_wrap(~parti_navn, scales = "free_y") +
+  labs(
+    title = "Sammenheng mellom utdanningsnivå og partioppslutning (2025)",
+    subtitle = "Hver prikk er en kommune",
+    x = "Andel med høyere utdanning (%)",
+    y = "Oppslutning (%)"
+  )
+
+# Korrelasjonskoeffisienter
+korrelasjon <- data_utd %>%
+  group_by(parti_navn) %>%
+  summarise(
+    korrelasjon = cor(andel_hoyere_utdanning, stemmer_prosent, use = "complete.obs"),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(korrelasjon))
+
+kable(korrelasjon,
+      digits = 3,
+      caption = "Korrelasjon mellom utdanningsnivå og partioppslutning")
+```
+
+## 4. By vs. land: Sentralitetsanalyse
+
+```{r}
+#| label: centrality-analysis
+#| fig-width: 10
+#| fig-height: 6
+
+# Analyser oppslutning etter sentralitet
+data_sent <- valgdata_komplett %>%
+  filter(aar == 2021, !is.na(sentralitet_klasse), !is.na(stemmer_prosent)) %>%
+  filter(parti_navn %in% store_partier)
+
+# Gjennomsnitt per sentralitetsklasse
+sent_parti <- data_sent %>%
+  group_by(sentralitet_klasse, parti_navn) %>%
+  summarise(
+    gjennomsnitt_prosent = mean(stemmer_prosent, na.rm = TRUE),
+    antall_kommuner = n(),
+    .groups = "drop"
+  )
+
+ggplot(sent_parti, aes(x = factor(sentralitet_klasse),
+                        y = gjennomsnitt_prosent,
+                        fill = parti_navn)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Partioppslutning etter sentralitet (2021)",
+    subtitle = "Klasse 1 = mest sentral, Klasse 6 = mest perifer",
+    x = "Sentralitetsklasse",
+    y = "Oppslutning (%)",
+    fill = "Parti"
+  )
+```
+
+## 5. Befolkningstetthet
+
+```{r}
+#| label: density-analysis
+#| fig-width: 10
+#| fig-height: 8
+
+# Analyser oppslutning etter befolkningstetthet
+data_tetthet <- valgdata_komplett %>%
+  filter(aar == 2021, !is.na(tetthet), !is.na(stemmer_prosent), tetthet > 0) %>%
+  filter(parti_navn %in% store_partier) %>%
+  mutate(
+    tetthet_kategori = cut(log10(tetthet + 1),
+                           breaks = 4,
+                           labels = c("Svært lav", "Lav", "Middels", "Høy"))
+  )
+
+tetthet_parti <- data_tetthet %>%
+  group_by(tetthet_kategori, parti_navn) %>%
+  summarise(
+    gjennomsnitt_prosent = mean(stemmer_prosent, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+ggplot(tetthet_parti, aes(x = tetthet_kategori,
+                           y = gjennomsnitt_prosent,
+                           fill = parti_navn)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Partioppslutning etter befolkningstetthet (2021)",
+    x = "Befolkningstetthet",
+    y = "Oppslutning (%)",
+    fill = "Parti"
+  ) +
+  theme(axis.text.x = element_text(angle = 0))
+```
+
+# Oppsummering
+
+## Viktigste funn
+
+```{r}
+#| label: summary-stats
+
+# Beregn noen oppsummeringsstatistikker
+oppsummering <- valgdata_komplett %>%
+  filter(aar == 2021, !is.na(median_inntekt)) %>%
+  group_by(parti_navn) %>%
+  summarise(
+    gjennomsnitt_inntekt = mean(median_inntekt * stemmer_prosent / 100, na.rm = TRUE),
+    gjennomsnitt_utdanning = mean(andel_hoyere_utdanning * stemmer_prosent / 100, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  filter(parti_navn %in% store_partier) %>%
+  arrange(desc(gjennomsnitt_inntekt))
+
+kable(oppsummering,
+      digits = 1,
+      col.names = c("Parti", "Vektet median inntekt (kr)",
+                    "Vektet andel høyere utd. (%)"),
+      caption = "Demografisk profil per parti (2021)")
+```
+
+## Konklusjoner
+
+Dette dokumentet viser:
+
+1. **Partiutvikling**: Tydelige trender i partienes oppslutning over tid
+2. **Inntekt**: Variasjoner i oppslutning basert på kommuners inntektsnivå
+3. **Utdanning**: Sammenheng mellom utdanningsnivå og partipreferanser
+4. **By/land**: Forskjeller mellom sentrale og perifere kommuner
+5. **Tetthet**: Befolkningstetthet påvirker stemmegivning
+
+## Datafiler
+
+Det kombinerte datasettet er lagret i:
+```
+data/valgdata_komplett.csv
+```
+
+Dette kan brukes for videre analyser i R, Python eller andre verktøy.
+
+---
+
+*Generert: `r Sys.time()`*

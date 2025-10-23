@@ -1,0 +1,403 @@
+"aar","valgtype","sted_type","sted_navn","overordnet_navn","parti_kode","parti_navn","mandater_antall","mandater_endring"
+"2025","st","fylke","Oslo","","A","Arbeiderpartiet",5,1
+"2025","st","fylke","Oslo","","SV","SV - Sosialistisk Venstreparti",2,-1
+"2025","st","fylke","Oslo","","RØDT","Rødt",2,0
+"2025","st","fylke","Oslo","","SP","Senterpartiet",0,0
+"2025","st","fylke","Oslo","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Oslo","","MDG","Miljøpartiet De Grønne",2,0
+"2025","st","fylke","Oslo","","V","Venstre",2,-1
+"2025","st","fylke","Oslo","","H","Høyre",4,-1
+"2025","st","fylke","Oslo","","FRP","Fremskrittspartiet",3,2
+"2025","st","fylke","Oslo","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Oslo","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Oslo","","ENSOM","Ensomhetspartiet",0,0
+"2025","st","fylke","Oslo","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Oslo","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Oslo","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Oslo","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Oslo","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Oslo","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Oslo","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Oslo","","BLANKE","Blanke",0,0
+"2025","st","fylke","Oslo","","RUS","Redd Ullevål sykehus",0,0
+"2025","st","fylke","Oslo","","Andre","Andre",0,0
+"2025","st","fylke","Oslo","","Andre2","Andre2",0,0
+"2025","st","fylke","Hedmark","","A","Arbeiderpartiet",3,0
+"2025","st","fylke","Hedmark","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Hedmark","","RØDT","Rødt",0,0
+"2025","st","fylke","Hedmark","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Hedmark","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Hedmark","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Hedmark","","V","Venstre",0,0
+"2025","st","fylke","Hedmark","","H","Høyre",1,0
+"2025","st","fylke","Hedmark","","FRP","Fremskrittspartiet",2,1
+"2025","st","fylke","Hedmark","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Hedmark","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Hedmark","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Hedmark","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Hedmark","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Hedmark","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Hedmark","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Hedmark","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Hedmark","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Hedmark","","BLANKE","Blanke",0,0
+"2025","st","fylke","Hedmark","","Andre","Andre",0,0
+"2025","st","fylke","Hedmark","","Andre2","Andre2",0,0
+"2025","st","fylke","Oppland","","A","Arbeiderpartiet",2,0
+"2025","st","fylke","Oppland","","SV","SV - Sosialistisk Venstreparti",1,1
+"2025","st","fylke","Oppland","","RØDT","Rødt",0,0
+"2025","st","fylke","Oppland","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Oppland","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Oppland","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Oppland","","V","Venstre",0,0
+"2025","st","fylke","Oppland","","H","Høyre",0,-1
+"2025","st","fylke","Oppland","","FRP","Fremskrittspartiet",2,1
+"2025","st","fylke","Oppland","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Oppland","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Oppland","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Oppland","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Oppland","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Oppland","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Oppland","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Oppland","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Oppland","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Oppland","","BLANKE","Blanke",0,0
+"2025","st","fylke","Oppland","","Andre","Andre",0,0
+"2025","st","fylke","Oppland","","Andre2","Andre2",0,0
+"2025","st","fylke","Aust-Agder","","A","Arbeiderpartiet",1,0
+"2025","st","fylke","Aust-Agder","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Aust-Agder","","RØDT","Rødt",0,0
+"2025","st","fylke","Aust-Agder","","SP","Senterpartiet",0,-1
+"2025","st","fylke","Aust-Agder","","KRF","Kristelig Folkeparti",1,1
+"2025","st","fylke","Aust-Agder","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Aust-Agder","","V","Venstre",0,0
+"2025","st","fylke","Aust-Agder","","H","Høyre",1,0
+"2025","st","fylke","Aust-Agder","","FRP","Fremskrittspartiet",1,0
+"2025","st","fylke","Aust-Agder","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Aust-Agder","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Aust-Agder","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Aust-Agder","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Aust-Agder","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Aust-Agder","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Aust-Agder","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Aust-Agder","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Aust-Agder","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Aust-Agder","","BLANKE","Blanke",0,0
+"2025","st","fylke","Aust-Agder","","Andre","Andre",0,0
+"2025","st","fylke","Aust-Agder","","Andre2","Andre2",0,0
+"2025","st","fylke","Vest-Agder","","A","Arbeiderpartiet",1,0
+"2025","st","fylke","Vest-Agder","","SV","SV - Sosialistisk Venstreparti",1,1
+"2025","st","fylke","Vest-Agder","","RØDT","Rødt",0,0
+"2025","st","fylke","Vest-Agder","","SP","Senterpartiet",0,-1
+"2025","st","fylke","Vest-Agder","","KRF","Kristelig Folkeparti",1,0
+"2025","st","fylke","Vest-Agder","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Vest-Agder","","V","Venstre",0,-1
+"2025","st","fylke","Vest-Agder","","H","Høyre",1,0
+"2025","st","fylke","Vest-Agder","","FRP","Fremskrittspartiet",2,1
+"2025","st","fylke","Vest-Agder","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Vest-Agder","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Vest-Agder","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Vest-Agder","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Vest-Agder","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Vest-Agder","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Vest-Agder","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Vest-Agder","","NKP","Norges Kommunistiske Parti",0,0
+"2025","st","fylke","Vest-Agder","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Vest-Agder","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Vest-Agder","","BLANKE","Blanke",0,0
+"2025","st","fylke","Vest-Agder","","Andre","Andre",0,0
+"2025","st","fylke","Vest-Agder","","Andre2","Andre2",0,0
+"2025","st","fylke","Rogaland","","A","Arbeiderpartiet",4,1
+"2025","st","fylke","Rogaland","","SV","SV - Sosialistisk Venstreparti",1,0
+"2025","st","fylke","Rogaland","","RØDT","Rødt",1,0
+"2025","st","fylke","Rogaland","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Rogaland","","KRF","Kristelig Folkeparti",1,0
+"2025","st","fylke","Rogaland","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Rogaland","","V","Venstre",0,0
+"2025","st","fylke","Rogaland","","H","Høyre",2,-2
+"2025","st","fylke","Rogaland","","FRP","Fremskrittspartiet",4,2
+"2025","st","fylke","Rogaland","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Rogaland","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Rogaland","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Rogaland","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Rogaland","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Rogaland","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Rogaland","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Rogaland","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Rogaland","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Rogaland","","BLANKE","Blanke",0,0
+"2025","st","fylke","Rogaland","","Andre","Andre",0,0
+"2025","st","fylke","Rogaland","","Andre2","Andre2",0,0
+"2025","st","fylke","Hordaland","","A","Arbeiderpartiet",4,0
+"2025","st","fylke","Hordaland","","SV","SV - Sosialistisk Venstreparti",1,0
+"2025","st","fylke","Hordaland","","RØDT","Rødt",1,0
+"2025","st","fylke","Hordaland","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Hordaland","","KRF","Kristelig Folkeparti",1,0
+"2025","st","fylke","Hordaland","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Hordaland","","V","Venstre",0,-1
+"2025","st","fylke","Hordaland","","H","Høyre",3,-1
+"2025","st","fylke","Hordaland","","FRP","Fremskrittspartiet",4,2
+"2025","st","fylke","Hordaland","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Hordaland","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Hordaland","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Hordaland","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Hordaland","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Hordaland","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Hordaland","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Hordaland","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Hordaland","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Hordaland","","BLANKE","Blanke",0,0
+"2025","st","fylke","Hordaland","","Andre","Andre",0,0
+"2025","st","fylke","Hordaland","","Andre2","Andre2",0,0
+"2025","st","fylke","Sogn og Fjordane","","A","Arbeiderpartiet",1,0
+"2025","st","fylke","Sogn og Fjordane","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Sogn og Fjordane","","RØDT","Rødt",0,0
+"2025","st","fylke","Sogn og Fjordane","","SP","Senterpartiet",1,0
+"2025","st","fylke","Sogn og Fjordane","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Sogn og Fjordane","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Sogn og Fjordane","","V","Venstre",0,-1
+"2025","st","fylke","Sogn og Fjordane","","H","Høyre",0,-1
+"2025","st","fylke","Sogn og Fjordane","","FRP","Fremskrittspartiet",1,1
+"2025","st","fylke","Sogn og Fjordane","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Sogn og Fjordane","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Sogn og Fjordane","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Sogn og Fjordane","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Sogn og Fjordane","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Sogn og Fjordane","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Sogn og Fjordane","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Sogn og Fjordane","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Sogn og Fjordane","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Sogn og Fjordane","","BLANKE","Blanke",0,0
+"2025","st","fylke","Sogn og Fjordane","","Andre","Andre",0,0
+"2025","st","fylke","Sogn og Fjordane","","Andre2","Andre2",0,0
+"2025","st","fylke","Møre og Romsdal","","A","Arbeiderpartiet",2,0
+"2025","st","fylke","Møre og Romsdal","","SV","SV - Sosialistisk Venstreparti",0,-1
+"2025","st","fylke","Møre og Romsdal","","RØDT","Rødt",0,0
+"2025","st","fylke","Møre og Romsdal","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Møre og Romsdal","","KRF","Kristelig Folkeparti",1,1
+"2025","st","fylke","Møre og Romsdal","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Møre og Romsdal","","V","Venstre",0,0
+"2025","st","fylke","Møre og Romsdal","","H","Høyre",1,0
+"2025","st","fylke","Møre og Romsdal","","FRP","Fremskrittspartiet",3,1
+"2025","st","fylke","Møre og Romsdal","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Møre og Romsdal","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Møre og Romsdal","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Møre og Romsdal","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Møre og Romsdal","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Møre og Romsdal","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Møre og Romsdal","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Møre og Romsdal","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Møre og Romsdal","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Møre og Romsdal","","BLANKE","Blanke",0,0
+"2025","st","fylke","Møre og Romsdal","","Andre","Andre",0,0
+"2025","st","fylke","Møre og Romsdal","","Andre2","Andre2",0,0
+"2025","st","fylke","Sør-Trøndelag","","A","Arbeiderpartiet",4,1
+"2025","st","fylke","Sør-Trøndelag","","SV","SV - Sosialistisk Venstreparti",1,0
+"2025","st","fylke","Sør-Trøndelag","","RØDT","Rødt",1,0
+"2025","st","fylke","Sør-Trøndelag","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Sør-Trøndelag","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Sør-Trøndelag","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Sør-Trøndelag","","V","Venstre",0,0
+"2025","st","fylke","Sør-Trøndelag","","H","Høyre",1,-1
+"2025","st","fylke","Sør-Trøndelag","","FRP","Fremskrittspartiet",2,1
+"2025","st","fylke","Sør-Trøndelag","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Sør-Trøndelag","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Sør-Trøndelag","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Sør-Trøndelag","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Sør-Trøndelag","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Sør-Trøndelag","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Sør-Trøndelag","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Sør-Trøndelag","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Sør-Trøndelag","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Sør-Trøndelag","","BLANKE","Blanke",0,0
+"2025","st","fylke","Sør-Trøndelag","","Andre","Andre",0,0
+"2025","st","fylke","Sør-Trøndelag","","Andre2","Andre2",0,0
+"2025","st","fylke","Nord-Trøndelag","","A","Arbeiderpartiet",2,0
+"2025","st","fylke","Nord-Trøndelag","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Nord-Trøndelag","","RØDT","Rødt",0,0
+"2025","st","fylke","Nord-Trøndelag","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Nord-Trøndelag","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Nord-Trøndelag","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Nord-Trøndelag","","V","Venstre",0,-1
+"2025","st","fylke","Nord-Trøndelag","","H","Høyre",0,0
+"2025","st","fylke","Nord-Trøndelag","","FRP","Fremskrittspartiet",1,1
+"2025","st","fylke","Nord-Trøndelag","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Nord-Trøndelag","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Nord-Trøndelag","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Nord-Trøndelag","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Nord-Trøndelag","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Nord-Trøndelag","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Nord-Trøndelag","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Nord-Trøndelag","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Nord-Trøndelag","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Nord-Trøndelag","","BLANKE","Blanke",0,0
+"2025","st","fylke","Nord-Trøndelag","","Andre","Andre",0,0
+"2025","st","fylke","Nord-Trøndelag","","Andre2","Andre2",0,0
+"2025","st","fylke","Nordland","","A","Arbeiderpartiet",3,0
+"2025","st","fylke","Nordland","","SV","SV - Sosialistisk Venstreparti",0,-1
+"2025","st","fylke","Nordland","","RØDT","Rødt",1,0
+"2025","st","fylke","Nordland","","SP","Senterpartiet",1,-1
+"2025","st","fylke","Nordland","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Nordland","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Nordland","","V","Venstre",0,0
+"2025","st","fylke","Nordland","","H","Høyre",1,0
+"2025","st","fylke","Nordland","","FRP","Fremskrittspartiet",3,2
+"2025","st","fylke","Nordland","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Nordland","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Nordland","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Nordland","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Nordland","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Nordland","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Nordland","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Nordland","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Nordland","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Nordland","","BLANKE","Blanke",0,0
+"2025","st","fylke","Nordland","","Andre","Andre",0,0
+"2025","st","fylke","Nordland","","Andre2","Andre2",0,0
+"2025","st","fylke","Østfold","","A","Arbeiderpartiet",4,4
+"2025","st","fylke","Østfold","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Østfold","","RØDT","Rødt",1,1
+"2025","st","fylke","Østfold","","SP","Senterpartiet",0,0
+"2025","st","fylke","Østfold","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Østfold","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Østfold","","V","Venstre",0,0
+"2025","st","fylke","Østfold","","H","Høyre",1,1
+"2025","st","fylke","Østfold","","FRP","Fremskrittspartiet",3,3
+"2025","st","fylke","Østfold","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Østfold","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Østfold","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Østfold","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Østfold","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Østfold","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Østfold","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Østfold","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Østfold","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Østfold","","BLANKE","Blanke",0,0
+"2025","st","fylke","Østfold","","Andre","Andre",0,0
+"2025","st","fylke","Østfold","","Andre2","Andre2",0,0
+"2025","st","fylke","Akershus","","A","Arbeiderpartiet",6,6
+"2025","st","fylke","Akershus","","SV","SV - Sosialistisk Venstreparti",1,1
+"2025","st","fylke","Akershus","","RØDT","Rødt",1,1
+"2025","st","fylke","Akershus","","SP","Senterpartiet",0,0
+"2025","st","fylke","Akershus","","KRF","Kristelig Folkeparti",1,1
+"2025","st","fylke","Akershus","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Akershus","","V","Venstre",1,1
+"2025","st","fylke","Akershus","","H","Høyre",4,4
+"2025","st","fylke","Akershus","","FRP","Fremskrittspartiet",5,5
+"2025","st","fylke","Akershus","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Akershus","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Akershus","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Akershus","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Akershus","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Akershus","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Akershus","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Akershus","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Akershus","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Akershus","","BLANKE","Blanke",0,0
+"2025","st","fylke","Akershus","","Andre","Andre",0,0
+"2025","st","fylke","Akershus","","Andre2","Andre2",0,0
+"2025","st","fylke","Buskerud","","A","Arbeiderpartiet",3,3
+"2025","st","fylke","Buskerud","","SV","SV - Sosialistisk Venstreparti",1,1
+"2025","st","fylke","Buskerud","","RØDT","Rødt",0,0
+"2025","st","fylke","Buskerud","","SP","Senterpartiet",0,0
+"2025","st","fylke","Buskerud","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Buskerud","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Buskerud","","V","Venstre",0,0
+"2025","st","fylke","Buskerud","","H","Høyre",1,1
+"2025","st","fylke","Buskerud","","FRP","Fremskrittspartiet",3,3
+"2025","st","fylke","Buskerud","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Buskerud","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Buskerud","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Buskerud","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Buskerud","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Buskerud","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Buskerud","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Buskerud","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Buskerud","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Buskerud","","BLANKE","Blanke",0,0
+"2025","st","fylke","Buskerud","","Andre","Andre",0,0
+"2025","st","fylke","Buskerud","","Andre2","Andre2",0,0
+"2025","st","fylke","Vestfold","","A","Arbeiderpartiet",2,2
+"2025","st","fylke","Vestfold","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Vestfold","","RØDT","Rødt",0,0
+"2025","st","fylke","Vestfold","","SP","Senterpartiet",0,0
+"2025","st","fylke","Vestfold","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Vestfold","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Vestfold","","V","Venstre",0,0
+"2025","st","fylke","Vestfold","","H","Høyre",1,1
+"2025","st","fylke","Vestfold","","FRP","Fremskrittspartiet",3,3
+"2025","st","fylke","Vestfold","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Vestfold","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Vestfold","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Vestfold","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Vestfold","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Vestfold","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Vestfold","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Vestfold","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Vestfold","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Vestfold","","BLANKE","Blanke",0,0
+"2025","st","fylke","Vestfold","","Andre","Andre",0,0
+"2025","st","fylke","Vestfold","","Andre2","Andre2",0,0
+"2025","st","fylke","Telemark","","A","Arbeiderpartiet",2,2
+"2025","st","fylke","Telemark","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Telemark","","RØDT","Rødt",0,0
+"2025","st","fylke","Telemark","","SP","Senterpartiet",0,0
+"2025","st","fylke","Telemark","","KRF","Kristelig Folkeparti",1,1
+"2025","st","fylke","Telemark","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Telemark","","V","Venstre",0,0
+"2025","st","fylke","Telemark","","H","Høyre",1,1
+"2025","st","fylke","Telemark","","FRP","Fremskrittspartiet",2,2
+"2025","st","fylke","Telemark","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Telemark","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Telemark","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Telemark","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Telemark","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Telemark","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Telemark","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Telemark","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Telemark","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Telemark","","BLANKE","Blanke",0,0
+"2025","st","fylke","Telemark","","Andre","Andre",0,0
+"2025","st","fylke","Telemark","","Andre2","Andre2",0,0
+"2025","st","fylke","Troms Romsa","","A","Arbeiderpartiet",2,2
+"2025","st","fylke","Troms Romsa","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Troms Romsa","","RØDT","Rødt",1,1
+"2025","st","fylke","Troms Romsa","","SP","Senterpartiet",0,0
+"2025","st","fylke","Troms Romsa","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Troms Romsa","","MDG","Miljøpartiet De Grønne",0,0
+"2025","st","fylke","Troms Romsa","","V","Venstre",0,0
+"2025","st","fylke","Troms Romsa","","H","Høyre",1,1
+"2025","st","fylke","Troms Romsa","","FRP","Fremskrittspartiet",2,2
+"2025","st","fylke","Troms Romsa","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Troms Romsa","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Troms Romsa","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Troms Romsa","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Troms Romsa","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Troms Romsa","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Troms Romsa","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Troms Romsa","","PP","Pensjonistpartiet",0,0
+"2025","st","fylke","Troms Romsa","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Troms Romsa","","BLANKE","Blanke",0,0
+"2025","st","fylke","Troms Romsa","","Andre","Andre",0,0
+"2025","st","fylke","Troms Romsa","","Andre2","Andre2",0,0
+"2025","st","fylke","Finnmark Finnmárku","","A","Arbeiderpartiet",2,2
+"2025","st","fylke","Finnmark Finnmárku","","SV","SV - Sosialistisk Venstreparti",0,0
+"2025","st","fylke","Finnmark Finnmárku","","RØDT","Rødt",0,0
+"2025","st","fylke","Finnmark Finnmárku","","SP","Senterpartiet",0,0
+"2025","st","fylke","Finnmark Finnmárku","","KRF","Kristelig Folkeparti",0,0
+"2025","st","fylke","Finnmark Finnmárku","","MDG","Miljøpartiet De Grønne",1,1
+"2025","st","fylke","Finnmark Finnmárku","","V","Venstre",0,0
+"2025","st","fylke","Finnmark Finnmárku","","H","Høyre",0,0
+"2025","st","fylke","Finnmark Finnmárku","","FRP","Fremskrittspartiet",1,1
+"2025","st","fylke","Finnmark Finnmárku","","DEMN","Norgesdemokratene",0,0
+"2025","st","fylke","Finnmark Finnmárku","","DNI","Partiet DNI",0,0
+"2025","st","fylke","Finnmark Finnmárku","","FRED","Fred og Rettferdighet (FOR)",0,0
+"2025","st","fylke","Finnmark Finnmárku","","GENP","Generasjonspartiet",0,0
+"2025","st","fylke","Finnmark Finnmárku","","HELSE","Velferd og Innovasjonspartiet",0,0
+"2025","st","fylke","Finnmark Finnmárku","","INP","Industri- og Næringspartiet",0,0
+"2025","st","fylke","Finnmark Finnmárku","","KRISTNE","Konservativt",0,0
+"2025","st","fylke","Finnmark Finnmárku","","PS","Partiet Sentrum",0,0
+"2025","st","fylke","Finnmark Finnmárku","","BLANKE","Blanke",0,0
+"2025","st","fylke","Finnmark Finnmárku","","PASF","Pasientfokus",0,0
+"2025","st","fylke","Finnmark Finnmárku","","Andre","Andre",0,0
+"2025","st","fylke","Finnmark Finnmárku","","Andre2","Andre2",0,0
